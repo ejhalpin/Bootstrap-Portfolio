@@ -1,0 +1,54 @@
+/*
+  Color scheme adopted from contrastrebellion.com
+  main -> #cfba58
+  dark -> #000000
+  light -> #ffffff fonts
+  highlight -> #bf3211
+*/
+body{
+  
+    margin:0;
+    color: #777777;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    background-image: url('../images/ep_naturalblack.png');
+}
+h2 {
+  font-size: 2.5em;
+  padding: 4px;
+  margin-top:-1px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: #bf3211;
+  color: #ffffff;
+  border-radius: 5px 15px;
+}
+
+li {
+  text-align: center;
+  padding: 10px;
+}
+
+a:hover {
+  color: #bf3211;
+}
+
+.content {
+  border:2px solid #dddddd;
+  width: 916px;
+  margin: auto;
+  margin-top: 100px;
+  padding: 20px;
+  margin-bottom: 10px;
+  background-color: #cfba58;
+}
+
+#spacer {
+  display: flex;
+  flex-direction: row;
+  justify-content:flex-end;
+  margin:auto;
+}
+
+#menu{
+  flex: 1 1 auto;
+}
+
