@@ -1,0 +1,68 @@
+.navbar-brand{
+  font-family:"Alegerya", serif;
+  font-size: 2.5rem;
+  padding: 10px;
+  background-color:#4aaaa5;
+  color: #ffffff;
+  margin-right:0;
+}
+
+
+@media (max-width: 767.98px) {
+  .md-down-brand{
+    width:100%;
+    margin-top:-10px;
+    text-align: center;
+  }
+  
+  .md-down{
+    padding:0;
+  }
+
+  .md-down-navbar{
+    padding-top:0;
+  }
+  
+  .md-down-flex{
+    justify-content:center!important;
+  }
+
+  .md-down-link{
+    padding:10px!important;
+  }
+
+  .link-bars::before{
+    padding-right: 20px;
+    content:"|"
+  }
+  
+  .link-bars::after{
+    padding-left:20px;
+    content:"|";
+  }
+  
+}
+
+.navbar{
+  padding:0;
+  line-height:1;
+  padding-top:10px;
+  max-width:960px;
+  margin:auto;
+}
+
+.navbar-nav{
+  flex-direction: row;
+}
+#navbarbox{
+  border-bottom: solid 2px #cccccc;
+  background-color:#ffffff;
+  justify-content:center;
+}
+
+.container-fluid .md-down-flex{
+  display:flex;
+  justify-content:flex-end;
+
+}
+
