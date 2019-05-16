@@ -1,26 +1,17 @@
-
-
-.card{
-  background-color:#4aaaa5;
+.card {
+  background-color: #4aaaa5;
   color: #ffffff;
   border-color: #cccccc;
-  float:left;
-  margin-right:1rem;
+  float: left;
+  margin-right: 1rem;
 }
 
 /* 640 and smaller == breakpoint */
-@media only screen and (max-width:767.98px){
-
-  .card-scale{
-    float:none;
-    margin-left:auto;
-    margin-right:auto;
+@media only screen and (max-width: 767.98px) {
+  .card-scale {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 1rem;
   }
-
-  
-
 }
-
-
-

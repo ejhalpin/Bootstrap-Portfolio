@@ -17,6 +17,7 @@
   
   .md-down{
     padding:0;
+    position:static;
   }
 
   .md-down-navbar{
